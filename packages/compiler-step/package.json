@@ -1,0 +1,38 @@
+{
+  "name": "compiler-step",
+  "version": "3.3.1",
+  "description": "compiler-step",
+  "main": "dist/compiler-sfc.cjs.js",
+  "module": "/dist/compiler-step.esm-browser.js",
+  "types": "dist/compiler-step.d.ts",
+  "files": [
+    "dist"
+  ],
+  "buildOptions": {
+    "name": "VueCompilerSTEP",
+    "formats": [
+      "cjs",
+      "esm-browser"
+    ],
+    "prod": false,
+    "enableNonBrowserBranches": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/core.git",
+    "directory": "packages/compiler-sfc"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuejs/core/issues"
+  },
+  "homepage": "https://github.com/vuejs/core/tree/main/packages/compiler-sfc#readme",
+  "dependencies": {
+    "@vue/compiler-core": "3.3.0-alpha.6",
+    "@vue/compiler-dom": "3.3.0-alpha.6",
+    "@vue/shared": "3.3.0-alpha.6"
+  }
+}

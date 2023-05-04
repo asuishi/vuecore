@@ -68,5 +68,6 @@ export function parse(template: string, options: ParserOptions = {}): RootNode {
 
 export * from './runtimeHelpers'
 export { transformStyle } from './transforms/transformStyle'
+export { stringifyStatic } from './transforms/stringifyStatic'
 export { createDOMCompilerError, DOMErrorCodes } from './errors'
 export * from '@vue/compiler-core'
